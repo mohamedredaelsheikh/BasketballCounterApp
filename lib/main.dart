@@ -14,7 +14,7 @@ class BasketBallPointCounterAPP extends StatelessWidget {
   Widget build(BuildContext context) {
     return BlocProvider(
       create: (context) => CounterCubit(),
-      child: MaterialApp(
+      child: const MaterialApp(
         home: HomeView(),
       ),
     );
